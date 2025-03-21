@@ -27,6 +27,9 @@ We release the all the GRA generated datasets and six fine-tuned model.
 | GRA-Alpaca | [link](https://huggingface.co/datasets/GX-XinGao/GRA-Alpaca) |
 | GRA-WizardLM | [link](https://huggingface.co/datasets/GX-XinGao/GRA-WizardLM) |
 | GRA-Condor | [link](https://huggingface.co/datasets/GX-XinGao/GRA-Condor) |
+| GRA-Alpaca | [link](https://huggingface.co/datasets/GX-XinGao/GRA-Alpaca-Refine) |
+| GRA-WizardLM | [link](https://huggingface.co/datasets/GX-XinGao/GRA-WizardLM-Refin) |
+| GRA-Condor | [link](https://huggingface.co/datasets/GX-XinGao/GRA-Condor-Refine) |
 | Qwen-2.5-7B-GRA-Alpaca | [link](https://huggingface.co/GX-XinGao/Qwen-2.5-7B-GRA-Alpaca) |
 | Qwen-2.5-7B-GRA-WizardLM | [link](https://huggingface.co/GX-XinGao/Qwen-2.5-7B-GRA-WizardLM) |
 | Qwen-2.5-7B-GRA-Condor | [link](https://huggingface.co/GX-XinGao/Qwen-2.5-7B-GRA-Condor)|
@@ -40,20 +43,15 @@ Install the dependencies:
 ```bash
 conda create -n GRA python=3.10
 conda activate GRA
-# Install Pytorch according to your CUDA version
-pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu121
+git clone https://github.com/GX-XinGao/GRA.git
+cd GRA
+pip install -r requirements.txt
+
 # Install LLaMA-Factory
 git clone https://github.com/hiyouga/LLaMA-Factory.git
 cd LLaMA-Factory
-git checkout v0.9.1
 pip install -e ".[torch,metrics]"
 # Install packages for evaluation
-pip install flash-attn==2.7.3 --no-build-isolation
-pip install sympy==1.12.1 antlr4-python3-runtime==4.11.1 pebble word2number boto3 triton==2.3.1
-pip install vllm==0.5.3.post1
-# Install latex2sympy
-cd ../evaluation/latex2sympy
-pip install -e .
 cd ..
 # Install dart-math evaluation
 pip install -e .
