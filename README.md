@@ -3,7 +3,7 @@
 
 <p align="center">
     <a href="https://arxiv.org/abs/xxxx.xxxxxx"><img src="https://img.shields.io/badge/📄-Paper-red"></a>
-    <a href="https://github.com/GX-XinGao/GRA/blob/main/LICENSE"><img src="https://img.shields.io/github/license/QizhiPei/MathFusion"></a>
+    <a href="https://github.com/GX-XinGao/GRA/blob/main/LICENSE"><img src="https://img.shields.io/github/license/GX-XinGao/GRA"></a>
     <a href="https://huggingface.co/collections/GX-XinGao/GRA-67d92b8e505635db1baf20b"><img src="https://img.shields.io/badge/🤗 HuggingFace-Data & Models-green"></a>
 </p>
 We propose GRA, a multiple small LLMs collaborative framework that aggregats specialized roles across small LLMs can mimic the iterative refinement and quality control typically achieved by a single large LLM, in which multiple small LLMs assume distinct roles—Generator, Reviewer, and Adjudicator to simulate a peer-review-inspired data synthesis pipeline:
@@ -48,17 +48,20 @@ cd GRA
 pip install -r requirements.txt
 
 # Install LLaMA-Factory
+cd ~/
 git clone https://github.com/hiyouga/LLaMA-Factory.git
 cd LLaMA-Factory
 pip install -e ".[torch,metrics]"
+
 # Install packages for evaluation
-cd ..
-# Install dart-math evaluation
-pip install -e .
+cd ~/
+git clone  https://github.com/open-compass/opencompass opencompass
+cd opencompass
+pip install -e ".[vllm]"
 ```
 
 ## 📚 Data
-Load the data from [MathFusionQA](https://huggingface.co/datasets/GX-XinGao/GRA), then convert each split to `.json` file and register the data information according to [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory). 
+Load the data from [GRA](https://huggingface.co/datasets/GX-XinGao/GRA), then convert each split to `.json` file and register the data information according to [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory). 
 
 ## 🤖 Training
 Our training codes depend on [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory).
