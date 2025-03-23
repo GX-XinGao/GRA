@@ -73,8 +73,11 @@ bash train/train.sh
 Our evaluation codes depend on [opencompass](https://github.com/open-compass/opencompass).
 You need to first download the model from HuggingFace, or SFT the model on your own. Then run the following evaluation script:
 ```bash
-export MODEL_NAME=your_sft_model_path
-bash test.sh
+export MODEL_NAME=your_sft_llama_model_path
+bash llama_test.sh
+
+export MODEL_NAME=your_sft_qwen_model_path
+bash qwen_test.sh
 ```
 
 ## 🙏 Acknowledgements
