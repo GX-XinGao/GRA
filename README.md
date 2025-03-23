@@ -24,12 +24,8 @@ We release the all the GRA generated datasets and six fine-tuned model.
 
 | Dataset/Model | HuggingFace🤗 |
 | - | :-: |
-| GRA-Alpaca | [link](https://huggingface.co/datasets/GX-XinGao/GRA-Alpaca) |
-| GRA-WizardLM | [link](https://huggingface.co/datasets/GX-XinGao/GRA-WizardLM) |
-| GRA-Condor | [link](https://huggingface.co/datasets/GX-XinGao/GRA-Condor) |
-| GRA-Alpaca | [link](https://huggingface.co/datasets/GX-XinGao/GRA-Alpaca-Refine) |
-| GRA-WizardLM | [link](https://huggingface.co/datasets/GX-XinGao/GRA-WizardLM-Refin) |
-| GRA-Condor | [link](https://huggingface.co/datasets/GX-XinGao/GRA-Condor-Refine) |
+| GRA | [link](https://huggingface.co/datasets/GX-XinGao/GRA) |
+| GRA-Refine | [link](https://huggingface.co/datasets/GX-XinGao/GRA-Refine) |
 | Qwen-2.5-7B-GRA-Alpaca | [link](https://huggingface.co/GX-XinGao/Qwen-2.5-7B-GRA-Alpaca) |
 | Qwen-2.5-7B-GRA-WizardLM | [link](https://huggingface.co/GX-XinGao/Qwen-2.5-7B-GRA-WizardLM) |
 | Qwen-2.5-7B-GRA-Condor | [link](https://huggingface.co/GX-XinGao/Qwen-2.5-7B-GRA-Condor)|
