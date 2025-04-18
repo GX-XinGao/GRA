@@ -86,7 +86,7 @@ Many thanks to
 * [opencompass](https://github.com/open-compass/opencompass/tree/main)
 
 ## Citation
-If you find our code, model, or data are useful, please kindly cite our [paper](https://arxiv.org/abs/2503.xxxxxx):
+If you find our code, model, or data are useful, please kindly cite our [paper](https://arxiv.org/pdf/2504.12322):
 ```
 @misc{gao2025strategiccoordinationframeworksmall,
       title={A Strategic Coordination Framework of Small LLMs Matches Large LLMs in Data Synthesis}, 
