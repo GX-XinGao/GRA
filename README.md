@@ -2,7 +2,7 @@
 <h1 align="center">David's Slingshot: A Strategic Coordination Framework of Small LLMs Matches Large LLMs in Data Synthesis</h1>
 
 <p align="center">
-    <a href="https://arxiv.org/abs/xxxx.xxxxxx"><img src="https://img.shields.io/badge/📄-Paper-red"></a>
+    <a href="https://arxiv.org/pdf/2504.12322"><img src="https://img.shields.io/badge/📄-Paper-red"></a>
     <a href="https://github.com/GX-XinGao/GRA/LICENSE"><img src="https://img.shields.io/github/license/QizhiPei/MathFusion"></a>
     <a href="https://huggingface.co/collections/GX-XinGao/GRA-67d92b8e505635db1baf20b"><img src="https://img.shields.io/badge/🤗 HuggingFace-Data & Models-green"></a>
 </p>
