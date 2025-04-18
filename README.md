@@ -88,11 +88,14 @@ Many thanks to
 ## Citation
 If you find our code, model, or data are useful, please kindly cite our [paper](https://arxiv.org/abs/2503.xxxxxx):
 ```
-@article{xxxxxx,
- title={David's Slingshot: A Strategic Coordination Framework of Small LLMs Matches Large LLMs in Data Synthesis}, 
- author={xxx and xxx and xxx and xxx and xxx and xxx and xxx and xxx and xxx},
- journal={arXiv preprint arXiv:2503.xxxxxx},
- year={2025}
+@misc{gao2025strategiccoordinationframeworksmall,
+      title={A Strategic Coordination Framework of Small LLMs Matches Large LLMs in Data Synthesis}, 
+      author={Xin Gao and Qizhi Pei and Zinan Tang and Yu Li and Honglin Lin and Jiang Wu and Conghui He and Lijun Wu},
+      year={2025},
+      eprint={2504.12322},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2504.12322}, 
 }
 ```
 
