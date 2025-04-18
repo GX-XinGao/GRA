@@ -4,7 +4,7 @@
 <p align="center">
     <a href="https://arxiv.org/pdf/2504.12322"><img src="https://img.shields.io/badge/📄-Paper-red"></a>
     <a href="https://github.com/GX-XinGao/GRA/LICENSE"><img src="https://img.shields.io/github/license/QizhiPei/MathFusion"></a>
-    <a href="https://huggingface.co/datasets/GX-XinGao/GRA"><img src="https://img.shields.io/badge/🤗 HuggingFace-Data & Models-green"></a>
+    <a href="https://huggingface.co/collections/GX-XinGao/gra-6801cba58ceb0074566cdb4e"><img src="https://img.shields.io/badge/🤗 HuggingFace-Data & Models-green"></a>
 </p>
 We propose GRA, a multiple small LLMs collaborative framework that aggregats specialized roles across small LLMs can mimic the iterative refinement and quality control typically achieved by a single large LLM, in which multiple small LLMs assume distinct roles—Generator, Reviewer, and Adjudicator to simulate a peer-review-inspired data synthesis pipeline:
 
