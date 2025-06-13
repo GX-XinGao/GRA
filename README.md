@@ -1,12 +1,12 @@
 <p align="center">
-<h1 align="center">David's Slingshot: A Strategic Coordination Framework of Small LLMs Matches Large LLMs in Data Synthesis</h1>
+<h1 align="center">A Strategic Coordination Framework of Small LMs Matches Large LMs in Data Synthesis</h1>
 
 <p align="center">
     <a href="https://arxiv.org/pdf/2504.12322"><img src="https://img.shields.io/badge/📄-Paper-red"></a>
     <a href="https://github.com/GX-XinGao/GRA/blob/main/LICENSE"><img src="https://img.shields.io/github/license/QizhiPei/MathFusion"></a>
     <a href="https://huggingface.co/collections/GX-XinGao/gra-6801cba58ceb0074566cdb4e"><img src="https://img.shields.io/badge/🤗 HuggingFace-Data & Models-green"></a>
 </p>
-We propose GRA, a multiple small LLMs collaborative framework that aggregats specialized roles across small LLMs can mimic the iterative refinement and quality control typically achieved by a single large LLM, in which multiple small LLMs assume distinct roles—Generator, Reviewer, and Adjudicator to simulate a peer-review-inspired data synthesis pipeline:
+We propose GRA, a multiple small LMs collaborative framework that aggregats specialized roles across small LMs can mimic the iterative refinement and quality control typically achieved by a single large LM, in which multiple small LMs assume distinct roles—Generator, Reviewer, and Adjudicator to simulate a peer-review-inspired data synthesis pipeline:
 
 
 1. **Generator**, which proposes candidate data samples.
@@ -15,7 +15,7 @@ We propose GRA, a multiple small LLMs collaborative framework that aggregats spe
 
 ![](imgs/overview.png)
 
-Through experiments across multiple benchmarks, we demonstrate that GRA-produced data matches or exceeds the quality of single large LLM outputs, e.g., Qwen-2.5-72B-Instruct. Our results challenge the necessity of monolithic large models for high-quality data synthesis, advocating instead for strategic coordination of smaller agents. 
+Through experiments across multiple benchmarks, we demonstrate that GRA-produced data matches or exceeds the quality of single large LM outputs, e.g., Qwen-2.5-72B-Instruct. Our results challenge the necessity of monolithic large models for high-quality data synthesis, advocating instead for strategic coordination of smaller agents. 
 
 ![](imgs/brief_comparison.png)
 
@@ -89,7 +89,7 @@ Many thanks to
 If you find our code, model, or data are useful, please kindly cite our [paper](https://arxiv.org/pdf/2504.12322):
 ```
 @misc{gao2025strategiccoordinationframeworksmall,
-      title={A Strategic Coordination Framework of Small LLMs Matches Large LLMs in Data Synthesis}, 
+      title={A Strategic Coordination Framework of Small LMs Matches Large LMs in Data Synthesis}, 
       author={Xin Gao and Qizhi Pei and Zinan Tang and Yu Li and Honglin Lin and Jiang Wu and Conghui He and Lijun Wu},
       year={2025},
       eprint={2504.12322},
