@@ -88,14 +88,11 @@ Many thanks to
 ## Citation
 If you find our code, model, or data are useful, please kindly cite our [paper](https://arxiv.org/pdf/2504.12322):
 ```
-@misc{gao2025strategiccoordinationframeworksmall,
-      title={A Strategic Coordination Framework of Small LMs Matches Large LMs in Data Synthesis}, 
-      author={Xin Gao and Qizhi Pei and Zinan Tang and Yu Li and Honglin Lin and Jiang Wu and Conghui He and Lijun Wu},
-      year={2025},
-      eprint={2504.12322},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2504.12322}, 
+@article{gao2025strategic,
+  title={A Strategic Coordination Framework of Small LLMs Matches Large LLMs in Data Synthesis},
+  author={Gao, Xin and Pei, Qizhi and Tang, Zinan and Li, Yu and Lin, Honglin and Wu, Jiang and Wu, Lijun and He, Conghui},
+  journal={arXiv preprint arXiv:2504.12322},
+  year={2025}
 }
 ```
 
